@@ -8,17 +8,21 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
-// Importação das imagens
+// Importação das imagens erro normal tem uma config no vite.config.ts as imagens rodam normal 
 import IgrejaHero from '/src/imagens/comunnitys/Igreja.jpg';
 import VisitaCanonica1 from '/src/imagens/visita_canonica/Captura de tela de 2025-01-14 09-32-06.png';
 import VisitaCanonica2 from '/src/imagens/visita_canonica/Captura de tela de 2025-01-14 09-33-02.png';
-import VisitaCanonica27dejulho from '/src/imagens/visita_canonica/27 de julho/27 de julho.png';
 import VisitaCanonica27dejulho2 from '/src/imagens/visita_canonica/27 de julho/27 de julho 2.png';
 import VisitaCanonica27dejulho3 from '/src/imagens/visita_canonica/27 de julho/27 de julho 3.png';
 import VisitaCanonica201701 from '/src/imagens/visita_canonica/2017/2017 1.JPG';
 import VisitaCanonica201702 from '/src/imagens/visita_canonica/2017/2017 2.JPG';
 import VisitaCanonica201703 from '/src/imagens/visita_canonica/2017/2017 3.JPG';
 import VisitaCanonica201705 from '/src/imagens/visita_canonica/2017/2017 5.JPG';
+import doacaodebanco from '/src/imagens/missa das doacoes de banco/Captura de tela de 2025-01-31 07-48-16.png';
+import doacaodebanco2 from '/src/imagens/missa das doacoes de banco/Captura de tela de 2025-01-31 07-38-56.png';
+import doacaodebanco3 from '/src/imagens/missa das doacoes de banco/Captura de tela de 2025-01-31 07-39-18.png';
+import doacaodebanco4 from '/src/imagens/missa das doacoes de banco/Captura de tela de 2025-01-31 07-39-53.png';
+import doacaodebanco5 from '/src/imagens/missa das doacoes de banco/Captura de tela de 2025-01-31 07-42-34.png';
 import Missao1 from '/src/imagens/missao/WhatsApp Image 2025-01-14 at 10.25.01.jpeg';
 import Missao2 from '/src/imagens/missao/WhatsApp Image 2025-01-14 at 10.25.45.jpeg';
 import Missao3 from '/src/imagens/missao/WhatsApp Image 2025-01-14 at 10.26.09.jpeg';
@@ -124,13 +128,6 @@ function History() {
             >
               <SwiperSlide className="flex items-center justify-center">
                 <img
-                  src={VisitaCanonica27dejulho}
-                  alt="VisitaCanonica27dejulho"
-                  className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="flex items-center justify-center">
-                <img
                   src={VisitaCanonica27dejulho2}
                   alt="VisitaCanonica27dejulho2"
                   className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
@@ -223,9 +220,8 @@ function History() {
               </SwiperSlide>
             </Swiper>
           </div>
-
-          {/* Parágrafo 8 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-12">
+           {/* Parágrafo 7 */}
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-12">
             <Swiper
               pagination={{ clickable: true }}
               navigation={true}
@@ -235,21 +231,35 @@ function History() {
             >
               <SwiperSlide className="flex items-center justify-center">
                 <img
-                  src={Missao1}
+                  src={doacaodebanco2}
                   alt="Missões"
                   className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
                 />
               </SwiperSlide>
               <SwiperSlide className="flex items-center justify-center">
                 <img
-                  src={Missao2}
+                  src={doacaodebanco3}
                   alt="Missões"
                   className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
                 />
               </SwiperSlide>
               <SwiperSlide className="flex items-center justify-center">
                 <img
-                  src={Missao3}
+                  src={doacaodebanco4}
+                  alt="Missões"
+                  className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="flex items-center justify-center">
+                <img
+                  src={doacaodebanco5}
+                  alt="Missões"
+                  className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="flex items-center justify-center">
+                <img
+                  src={doacaodebanco}
                   alt="Missões"
                   className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
                 />
@@ -257,10 +267,50 @@ function History() {
             </Swiper>
             <div className="text-left">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Em 2024, a comunidade realizou suas primeiras missões, com a presença dos padres Pe. Antonio Roik, OSBM e Pe. Marcos Chmilouski, OSBM. As missões ocorreram de 21 a 26 de julho de 2024 e incluíram celebrações, palestras e momentos de confissão, fortalecendo a fé e a união dos paroquianos. Essas missões foram um marco importante para a comunidade, que continuou a crescer tanto espiritualmente quanto em número de fiéis.
+              No dia 24 de setembro de 2023, a Comunidade Católica Ucraniana São Nicolau, em Joinville-SC, recebeu com alegria a doação dos bancos para a igreja, trazidos pelo Pe. Emerson Sérgio Spack, OSBM. Esse gesto foi um marco significativo para a comunidade, proporcionando mais conforto aos fiéis durante as celebrações.
+              Logo após a entrega, a comunidade celebrou esse momento especial com um almoço festivo, seguido de um animado show de prêmios, reunindo os paroquianos em um ambiente de confraternização e gratidão.
               </p>
             </div>
           </div>
+
+          {/* Parágrafo 8 */}
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-12">
+  <div className="text-left">
+    <p className="text-lg text-gray-700 leading-relaxed">
+      Em 2024, a comunidade realizou suas primeiras missões, com a presença dos padres Pe. Antonio Roik, OSBM e Pe. Marcos Chmilouski, OSBM. As missões ocorreram de 21 a 26 de julho de 2024 e incluíram celebrações, palestras e momentos de confissão, fortalecendo a fé e a união dos paroquianos. Essas missões foram um marco importante para a comunidade, que continuou a crescer tanto espiritualmente quanto em número de fiéis.
+    </p>
+  </div>
+  <Swiper
+    pagination={{ clickable: true }}
+    navigation={true}
+    modules={[Pagination, Navigation, Autoplay]}
+    autoplay={{ delay: 7000, disableOnInteraction: false }}
+    className="w-full rounded-lg shadow-lg"
+  >
+    <SwiperSlide className="flex items-center justify-center">
+      <img
+        src={Missao1}
+        alt="Missões"
+        className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
+      />
+    </SwiperSlide>
+    <SwiperSlide className="flex items-center justify-center">
+      <img
+        src={Missao2}
+        alt="Missões"
+        className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
+      />
+    </SwiperSlide>
+    <SwiperSlide className="flex items-center justify-center">
+      <img
+        src={Missao3}
+        alt="Missões"
+        className="w-[544px] h-[244px] object-cover md:w-[380px] md:h-[285px]"
+      />
+    </SwiperSlide>
+  </Swiper>
+</div>
+
 
           {/* Parágrafo 9 */}
           <div className="text-left mt-12">
