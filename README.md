@@ -26,13 +26,14 @@ Siga os passos abaixo para rodar o projeto em sua máquina local:
    ```bash
    git clone https://github.com/Mateus-Zdebski/igreja_sao_nicolau.git
 
-2. Navegue até o diretório do projeto:
+2. **Navegue até o diretório do projeto**:
+      ```bash
       cd igreja_sao_nicolau
 
-3.Instale as dependências:
+3.**Instale as dependências**:
    npm install vite
 
-4. Inicie o projeto:
+4.**Inicie o projeto**:
     ```bash
         npx vite
 
