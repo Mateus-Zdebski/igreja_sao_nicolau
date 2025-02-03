@@ -33,9 +33,7 @@ Siga os passos abaixo para rodar o projeto em sua máquina local:
 3.**Instale as dependências**:
    npm install vite
 
-4.**Inicie o projeto**:
-    ```bash
-        npx vite
+4.**Inicie o projeto**: npx vite
 
 Estrutura do Projeto
    ```bash
