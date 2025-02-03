@@ -1,21 +1,53 @@
-# Landing Page para Igreja
+# Igreja São Nicolau - Landing Page
 
-Este projeto é uma landing page desenvolvida para a igreja, com o objetivo de fornecer informações relevantes, promover eventos e conectar a comunidade. A página foi criada com foco na simplicidade, usabilidade e design responsivo.
+Este projeto é uma landing page desenvolvida para a Igreja São Nicolau, utilizando React, Tailwind CSS e Vite. A página foi criada para fornecer informações sobre a igreja, eventos, horários de missas e outras atividades relevantes.
 
-## Visualização
+## Visão Geral
 
-Você pode visualizar a página ao vivo [aqui](https://testeprogram1223.netlify.app/).
+A landing page foi desenvolvida com o objetivo de ser responsiva, moderna e de fácil navegação. Utilizamos tecnologias como React para a estruturação do projeto, Tailwind CSS para estilização e Vite para a construção e otimização do código.
+
+## Demonstração
+
+Você pode visualizar a página em funcionamento através do seguinte link: [Igreja São Nicolau - Landing Page](https://testeprogram1223.netlify.app/)
 
 ## Tecnologias Utilizadas
 
-- **HTML5**: Estruturação do conteúdo da página.
-- **CSS3**: Estilização e design responsivo.
-- **JavaScript**: Interatividade e funcionalidades dinâmicas.
-- [Netlify](https://www.netlify.com/): Hospedagem e deploy contínuo.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva.
+- **Vite**: Ferramenta de construção rápida para projetos modernos.
+- **React Router**: Para gerenciamento de rotas (se aplicável).
+- **Netlify**: Para deploy e hospedagem da aplicação.
 
-## Funcionalidades
+## Como Executar o Projeto Localmente
 
-- **Design Responsivo**: A página é totalmente responsiva, adaptando-se a diferentes tamanhos de tela, desde desktops até dispositivos móveis.
-- **Seções Informativas**: Destaque para informações sobre a igreja, horários de cultos, localização e contato.
-- **Eventos**: Seção dedicada para promover eventos e atividades da igreja.
-- **Formulário de Contato**: Permite que os visitantes entrem em contato com a igreja diretamente pela página.
+Siga os passos abaixo para rodar o projeto em sua máquina local:
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/Mateus-Zdebski/igreja_sao_nicolau.git
+
+2. Navegue até o diretório do projeto:
+cd igreja_sao_nicolau
+
+3.Instale as dependências:
+npm install vite
+
+4. Inicie o projeto:
+npx vite
+
+Estrutura do Projeto
+
+igreja_sao_nicolau/
+├── public/              # Arquivos estáticos como imagens e ícones
+├── src/                 # Código fonte do projeto
+│   ├── components/      # Componentes reutilizáveis
+│   ├── pages/           # Páginas da aplicação
+│   ├── styles/          # Estilos globais e específicos
+│   ├── App.jsx          # Componente principal da aplicação
+│   └── main.jsx         # Ponto de entrada da aplicação
+├── tailwind.config.js   # Configuração do Tailwind CSS
+├── vite.config.js       # Configuração do Vite
+├── package.json         # Dependências e scripts do projeto
+└── README.md            # Documentação do projeto
+
+
