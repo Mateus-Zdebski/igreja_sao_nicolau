@@ -1,53 +1,89 @@
-# Igreja São Nicolau - Landing Page
+# README - Site Igreja Católica Ucraniana São Nicolau do Rito Bizantino
 
-Este projeto é uma landing page desenvolvida para a Igreja São Nicolau, utilizando React, Tailwind CSS e Vite. A página foi criada para fornecer informações sobre a igreja, eventos, horários de missas e outras atividades relevantes.
+## Descrição do Projeto
+Este projeto é um site institucional para a **Igreja Católica Ucraniana São Nicolau do Rito Bizantino** localizada em Joinville, Santa Catarina. O site apresenta informações sobre a história da comunidade, seus fundadores, padres que ajudaram na jornada e as comunidades que apoiaram ao longo do tempo.
 
-## Visão Geral
-
-A landing page foi desenvolvida com o objetivo de ser responsiva, moderna e de fácil navegação. Utilizamos tecnologias como React para a estruturação do projeto, Tailwind CSS para estilização e Vite para a construção e otimização do código.
-
-## Demonstração
-
-Você pode visualizar a página em funcionamento através do seguinte link: [Igreja São Nicolau - Landing Page](https://testeprogram1223.netlify.app/)
+O objetivo é fornecer uma plataforma interativa e informativa para os fiéis, destacando a importância cultural e religiosa da igreja.
 
 ## Tecnologias Utilizadas
+- **HTML5**: Estrutura do site
+- **CSS3**: Estilo e layout
+- **Bootstrap 4.5.2**: Layout responsivo e componentes (Observação: o site utiliza Bootstrap 4.5.2, não 5.3)
+- **Owl Carousel 2.3.4**: Carrossel de imagens (substituindo Swiper.js)
+- **JavaScript**: Funcionalidades dinâmicas (incluindo jQuery 3.5.1)
+- **Google Maps API**: Localização da igreja
+- **Font Awesome 6.4.0**: Ícones
+- **Animate.css 4.1.1**: Animações CSS
+- **Google Fonts**: Fontes personalizadas (Playfair Display e Poppins)
+- **Instagram oEmbed**: Para integração do feed de notícias.
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva.
-- **Vite**: Ferramenta de construção rápida para projetos modernos.
-- **React Router**: Para gerenciamento de rotas (se aplicável).
-- **Netlify**: Para deploy e hospedagem da aplicação.
+## Estrutura de Arquivos
+```
+├── README.md               # Documento com informações do projeto
+├── biografia_padres.html   # Página de biografia desde o papa ate o padre
+├── historia.html           # Página com a história da comunidade
+├── imagens/                # Diretório com imagens da igreja, padres e comunidades
+│   ├── Visita Oska/
+│   ├── biografia/
+│   ├── comunnitys/
+│   ├── fundadores/
+│   ├── icone/
+│   ├── inauguracao/
+│   ├── isn/
+│   ├── missa das doacoes de banco/
+│   ├── missao/
+│   ├── padres/
+│   ├── sao_nicolau/
+│   └── visita_canonica/
+│       ├── 2017/
+│       └── 27 de julho/
+├── index.html              # Página principal
+├── js.js                   # Scripts personalizados
+├── noticias.html           # Página de notícias
+└── style.css               # Estilos personalizados
+```
 
-## Como Executar o Projeto Localmente
+## Funcionalidades
+- Apresentação da história da igreja, seus fundadores e São Nicolau.
+- Biografias detalhadas de líderes religiosos (Papa, Arcebispo Maior, Arcebispo Metropolita, Pároco local).
+- Informações sobre os padres que contribuíram para a comunidade ao longo dos anos.
+- Listagem das comunidades que apoiaram a igreja em sua jornada.
+- Galeria interativa de imagens com **Owl Carousel** (substituindo Swiper.js).
+- Seção de Notícias com feed do Instagram integrado.
+- Mapa interativo com a localização da igreja (Google Maps API) e botão "Como Chegar".
+- Horários das missas.
+- Botão de "Voltar ao Topo" para fácil navegação.
+- Links para as redes sociais da igreja (Facebook, Instagram).
+- Design responsivo utilizando Bootstrap.
+- Animações sutis para melhorar a experiência do usuário.
 
-Siga os passos abaixo para rodar o projeto em sua máquina local:
+## Configuração do Projeto
+### Pré-requisitos
+Para rodar o projeto localmente, você precisa ter:
+- Navegador moderno (Chrome, Firefox, Edge)
+- Conexão com a internet para carregar bibliotecas externas
 
-1. **Clone o repositório**:
+### Como Executar
+1. Faça o download ou clone o repositório:
    ```bash
-   git clone https://github.com/Mateus-Zdebski/igreja_sao_nicolau.git
+   git clone https://github.com/seu-repositorio.git
+   ```
+2. Abra o arquivo `index.html` no navegador.
 
-2. **Navegue até o diretório do projeto**:
-      ```bash
-      cd igreja_sao_nicolau
+### Personalização
+Se desejar personalizar o conteúdo, edite os seguintes arquivos:
+- **index.html**: Estrutura principal
+- **style.css**: Estilo visual
+- **js.js**: Funcionalidades interativas
 
-3.**Instale as dependências**:
-   npm install vite
+## Créditos
+- Comunidade Católica Ucraniana São Nicolau de Joinville
+- Desenvolvido por [Mateus Zdebski]
 
-4.**Inicie o projeto**: npx vite
+## Contato
+- E-mail: comunidadesaonicolau@gmail.com
+- Instagram: [@igrejasaonicolaujoinville](https://www.instagram.com/igrejasaonicolaujoinville/)
+- Facebook: [Comunidade São Nicolau Joinville](https://www.facebook.com/comunidadesaonicolaujoinville/)
 
-Estrutura do Projeto
-   ```bash
-igreja_sao_nicolau/
-├── public/              # Arquivos estáticos como imagens e ícones
-├── src/                 # Código fonte do projeto
-│   ├── components/      # Componentes reutilizáveis
-│   ├── pages/           # Páginas da aplicação
-│   ├── styles/          # Estilos globais e específicos
-│   ├── App.jsx          # Componente principal da aplicação
-│   └── main.jsx         # Ponto de entrada da aplicação
-├── tailwind.config.js   # Configuração do Tailwind CSS
-├── vite.config.js       # Configuração do Vite
-├── package.json         # Dependências e scripts do projeto
-└── README.md            # Documentação do projeto
-
-
+## Licença
+Este projeto é de uso exclusivo da **Comunidade Católica Ucraniana São Nicolau de Joinville** e não pode ser reproduzido sem autorização prévia.
